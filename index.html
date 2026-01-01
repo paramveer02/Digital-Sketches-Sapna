@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rêve | Hand-Drawn Digital Magic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Lexend+Mega:wght@400;700;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Outfit', 'sans-serif'],
+              display: ['Lexend Mega', 'sans-serif'],
+            },
+            colors: {
+              'lute-pink': '#d946ef',
+              'lute-blue': '#0ea5e9',
+              'lute-yellow': '#facc15',
+              'lute-green': '#22c55e',
+              'lute-orange': '#f97316',
+            },
+            boxShadow: {
+              'hard': '4px 4px 0px 0px rgba(0,0,0,1)',
+              'hard-lg': '8px 8px 0px 0px rgba(0,0,0,1)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #fefce8;
+        color: #000;
+        font-family: 'Outfit', sans-serif;
+        overflow-x: hidden;
+      }
+      .neobrutal-button {
+        border: 2px solid black;
+        box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+        transition: all 0.2s;
+      }
+      .neobrutal-button:active {
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+        transform: translate(4px, 4px);
+      }
+      .neobrutal-card {
+        border: 2px solid black;
+        box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      body {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
